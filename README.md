@@ -1,0 +1,2 @@
+This is a website version of my CV, which I made in order to show off my skills to potential employers.
+If I end up hosting it, it will be <a href=https://polytechnes.github.io/curriculum-vitae>. However, I haven't done that, so this link doesn't work.
