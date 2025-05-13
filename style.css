@@ -4,6 +4,7 @@
 }
 :root {
     --gold: #f5c536;
+    --darkgold: #dea62e;
     --beige: #f4e3bf;
     --font: "Garamond", "Times New Roman", serif;
     --darkblue: #04044e;
@@ -18,6 +19,9 @@ body {
     display: grid;
     place-items: center;
     height: 12vmin;
+    border-bottom: var(--darkgold);
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
 }
 h1 {
     font-family: var(--font);
@@ -40,6 +44,9 @@ h1 {
     font-family: var(--font);
     background-color: var(--gold);
     width: 100%;
+    border: var(--darkgold);
+    border-style: solid;
+    border-width: 4px;
 }
 .paragraph > p, ul, li {
     font-size: 3vmin;
@@ -58,4 +65,16 @@ a:visited {
 }
 a:hover {
     color: var(--lessdarkblue);
+}
+.langswitch {
+    font-family: var(--font);
+    font-size: 2vmin;
+    position: fixed;
+    top: 1.5vmax;
+    left: 1.5vmax;
+    background-color: var(--gold);
+    padding: 2px;
+    border-color: var(--darkgold);
+    border-style: solid;
+    border-width: 2px;
 }
