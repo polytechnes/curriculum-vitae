@@ -18,10 +18,10 @@
 }
 body {
     height: 100%;
-    background-color: darkslateblue;
+    background-color: var(--alpenglowpurple);
 }
 .header {
-    background-color: var(--gold);
+    background-color: var(--alpenglowpink);
     display: grid;
     place-items: center;
     background: var(--alpenglowgrad);
@@ -81,33 +81,27 @@ h1 {
 a {
     color: var(--darkblue);
     transition: all 300ms ease-in-out;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--lessdarkblue);
 }
 a:visited {
     color: var(--darkblue);
 }
-a.contacts:hover {
-    color: var(--lessdarkblue);
-    font-size: 3.1vmin;
-}
+
 .langswitch {
-    
-    /* position: fixed;
-    top: 1.5vmax;
-    left: 1.5vmax; */
     background-color: var(--gold);
     padding: 2px;
-    /* border-color: var(--darkgold);
-    border-style: solid;
-    border-width: 2px; */
 }
+
 .langswitch > a {
     font-family: var(--font);
     font-size: 2vmin;
 }
-a.langswitch:hover {
-    color: var(--lessdarkblue);
-    /* font-size: 2.1vmin; */
-}
+
 .gradborder {
     display: flex;
     align-items: center;
